@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario para interação com usuario</title>
+</head>
+<body>
+    <form>
+        <input type="text" name="'user name" placeholder="Digite seu nome" required >
+        <input type="number" name="user_cpf" inputmode="numeric">
+        <input type="password" name="user_passaword" placeholder="digite sua senha">
+        <input type="email" name="user_email" placeholder="digite seu melhor email" required>
+        <input type="file" name="user_resume">
+        <div>
+            <input type="checkbox" name="user_disabilities">
+            <label> Precisa de auxilio para executar as atividades?</label>
+        </div>
+        <div>
+            <label>Ja trabalhou na empresa anteriormente?</label>
+            <input type="radio" name="user_worker">
+            <label>SIM</label>
+            <input type="radio" name="user_worker">
+            <label> NÃO</label>
+        </div>
+        <select name="user_city">
+            <option value="fortaleza">Fortaleza</option>
+            <option value="salvador">Salvador</option>
+            <option value="jequie">Jequie</option>
+            <option value="serrinha">Serrinha</option>
+        </select>
+        
+        <button type="submit">Enviar</button>
+    </form>
+
+    
+</body>
+</html>
