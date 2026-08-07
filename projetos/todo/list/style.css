@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+ .menu {
+    background-color: rgb(27, 27, 235);
+}
+
+.menu  {
+
+}
+
+.profile {
+    background-color: red;
+}
