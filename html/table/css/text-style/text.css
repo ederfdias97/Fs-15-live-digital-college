@@ -1,0 +1,20 @@
+h1 {
+    color: red;
+    font-weight: normal;
+    font-size: 100px ;
+    font-family:Verdana;  
+}
+p {
+    color: rgb(2, 2, 2);
+    font-family: Verdana;
+}
+h2 {
+    font-weight: normal;
+    color: black;
+    font-family: Verdana;
+}
+
+.text2{
+    word-spacing: 30px;
+
+}

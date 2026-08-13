@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+    padding: 0%;
+    margin: 0%;
+
+}
+.menu {
+    background-color: yellow;
+    width: 1440px;
+    margin:  auto auto auto ;
+    padding:  16px 26px 16px 26px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.menu nav {
+    display: flex;
+    gap: 26px;
+}
+.menu nav a {
+    color: black;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.menu .social media {
+    display: flex;
+
+}
+.menu button {
+    color: rgb(8, 170, 170);
+    border: 1px dotted rgb(8, 170, 170) ;
+    border-radius: 10px;
+    padding: 12px 24px 12px 24px;
+    background-color: white;
+    cursor: pointer;
+}
