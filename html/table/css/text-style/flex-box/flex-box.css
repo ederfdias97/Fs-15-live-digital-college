@@ -34,3 +34,10 @@ body {
     background-color: white;
     cursor: pointer;
 }
+main {
+    width: 1200px;
+}
+main .most-viewd {
+    background-color: aqua;
+
+}
