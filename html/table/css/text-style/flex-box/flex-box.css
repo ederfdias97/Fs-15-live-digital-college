@@ -1,17 +1,38 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 body {
-    background-color: black;
-    padding: 0%;
-    margin: 0%;
+   
+    padding: 0;
+    margin: 0;
 
 }
-.menu {
+.menu  {
     background-color: yellow;
-    width: 1440px;
-    margin:  auto auto auto ;
+    width: 1200px;
+    margin: 0 auto 0 auto ;
     padding:  16px 26px 16px 26px;
+    box-sizing: border-box ;
+
     display: flex;
     gap: 50px;
     align-items: center;
+    justify-content: space-between;
+    
+}
+.menu .menu-left{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    
+}
+.menu .menu-right {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    
 }
 .menu nav {
     display: flex;
@@ -20,24 +41,47 @@ body {
 .menu nav a {
     color: black;
     text-decoration: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 .menu .social media {
     display: flex;
+    gap: 20px;
 
 }
 .menu button {
-    color: rgb(8, 170, 170);
-    border: 1px dotted rgb(8, 170, 170) ;
+    color: blue(246, 247, 247);
+    border: 1px solid blue(8, 170, 170) ;
     border-radius: 10px;
     padding: 12px 24px 12px 24px;
-    background-color: white;
+    background-color:blue(54, 125, 207);
     cursor: pointer;
 }
 main {
     width: 1200px;
+    margin: 20px auto 0 auto;
+    background-color: rgb(51, 117, 95);
+    min-height: 100vh;
+
 }
 main .most-viewd {
-    background-color: aqua;
+    background-color: rgb(86, 86, 214) ;
 
+}
+main  .most-viewd .cards-most-viewd{
+   
+    margin: 10 0 0;
+
+    display: flex;
+    justify-content: space-between;
+}
+main .most-viewd .cards-most-viewd .product-card{
+    background-color: rgb(0, 217, 255);
+    width: 200px;
+}
+main .most-viewd .cards-most-viewd .product-card .product-img {
+    padding:  0 4px 0 px ;
+}
+main .most-viewd .cards-most-viewd .product-card .product-img img{
+    width: 100%;
+    background-color: blue;
 }
