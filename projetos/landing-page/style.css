@@ -1,0 +1,46 @@
+* {
+    padding:  0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(160, 168, 168);
+}
+.portifolio {
+    background-color:white;
+    width: 400px;
+    margin: 20px 0 auto;
+
+}
+.portifolio.title h3{
+text-align: center;
+}
+.portifolio.title {
+    margin-bottom: 10px;
+}
+.portifolio .description p {
+    font-size: 11px;
+}
+.portifolio nav {
+    margin-bottom: 10 px;
+}
+.portifolio nav .menu {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin:  0 auto;
+}
+.portifolio nav .menu a {
+    text-decoration: none;
+    color: gray;
+    font-size: 10px;
+    padding:  6px 10px;
+}
+.portifolio nav .menu a:hover {
+    color: black;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+.portifolio .portifolio-cards .card{
+    background-color: red;
+}
